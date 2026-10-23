@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { AnimatePresence } from 'framer-motion'
 import { content } from './content'
 import { useAudio } from './hooks/useAudio'
@@ -8,13 +8,18 @@ import { CoverScene } from './components/CoverScene'
 import { HeartCharger } from './components/HeartCharger'
 import { PolaroidStack } from './components/PolaroidStack'
 import { LoveLetter } from './components/LoveLetter'
+import { CakeScene } from './components/CakeScene'
 import { FinalToast } from './components/FinalToast'
 
-type Scene = 'cover' | 'charge' | 'photos' | 'letter' | 'final'
+type Scene = 'cover' | 'charge' | 'photos' | 'letter' | 'wish' | 'final'
 
 function App() {
   const [scene, setScene] = useState<Scene>('cover')
   const audio = useAudio(content.musicSrc)
+
+  useEffect(() => {
+    document.title = `Feliz cumpleaños, ${content.recipientName}`
+  }, [])
 
   return (
     <div className="relative min-h-screen overflow-hidden bg-gradient-to-b from-blush-50 via-white to-blush-100">
@@ -58,6 +63,16 @@ function App() {
               title={content.letterTitle}
               paragraphs={content.letterParagraphs}
               signature={content.letterSignature}
+              onContinue={() => setScene('wish')}
+            />
+          )}
+
+          {scene === 'wish' && (
+            <CakeScene
+              key="wish"
+              age={content.age}
+              prompt={content.wishPrompt}
+              done={content.wishDone}
               onContinue={() => setScene('final')}
             />
           )}

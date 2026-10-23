@@ -1,41 +1,73 @@
 {
-  "recipientName": "Cris",
+  "recipientName": "Daniska",
+  "age": "23",
   "coverTitle": "Feliz Cumpleaños",
-  "coverSubtitle": "Preparé algo especial para ti",
-  "eventDate": "18 de junio",
+  "coverSubtitle": "Daniska, mi amor, esto es para ti",
+  "eventDate": "23 años",
   "chargeMessages": [
-    "Cerca de ti, todo se siente distinto",
-    "Sigue, esto apenas empieza",
-    "Un poquito más...",
+    "Hoy cumple años alguien muy especial",
+    "Mi persona favorita en el mundo",
+    "Sigue, que esto recién empieza",
+    "Un poquito más, mi amor",
     "No pares ahora",
-    "Ya casi está listo",
-    "Esto se está encendiendo..."
+    "Ya casi está listo..."
   ],
   "photos": [
     {
-      "src": "/photos/1.jpg",
-      "caption": "El día que todo empezó"
+      "src": "/photos/daniska-01.jpg",
+      "caption": "Entre rosas, siempre contigo"
     },
     {
-      "src": "/photos/2.jpg",
-      "caption": "Ese viaje que no olvidamos"
+      "src": "/photos/daniska-02.jpg",
+      "caption": "Un beso bajo las palmeras"
     },
     {
-      "src": "/photos/3.jpg",
-      "caption": "Tu sonrisa, mi lugar favorito"
+      "src": "/photos/daniska-03.jpg",
+      "caption": "Abrazados, así me gusta estar"
+    },
+    {
+      "src": "/photos/daniska-04.jpg",
+      "caption": "Con nuestro regalón"
+    },
+    {
+      "src": "/photos/daniska-05.jpg",
+      "caption": "Los más divertidos"
+    },
+    {
+      "src": "/photos/daniska-06.jpg",
+      "caption": "Lo que siempre quise decirte"
+    },
+    {
+      "src": "/photos/daniska-07.jpg",
+      "caption": "Brillando como siempre"
+    },
+    {
+      "src": "/photos/daniska-08.jpg",
+      "caption": "Nuestra Estrellita"
+    },
+    {
+      "src": "/photos/daniska-09.jpg",
+      "caption": "Mi lugar favorito es a tu lado"
+    },
+    {
+      "src": "/photos/daniska-10.jpg",
+      "caption": "Contigo todo es mejor"
     }
   ],
-  "letterTitle": "Hoy es tu día",
+  "letterTitle": "Feliz cumpleaños, amor de mi vida",
   "letterParagraphs": [
-    "Hay personas que llegan y, sin darte cuenta, se vuelven el centro de todo.",
-    "Hoy quiero celebrar tu risa, tu forma de ver el mundo y todo lo que construimos juntos.",
-    "Que este nuevo año te traiga tanto de lo que mereces, y que yo pueda seguir viéndolo a tu lado."
+    "Que cumplas muchos años más, mi amorcito.",
+    "Que la vida nos permita muchos momentos más juntitos, y que yo pueda estar a tu lado en cada uno de ellos.",
+    "Gracias por todo, mi preciosa. Por tu cariño, tu risa y por hacer mi vida más linda.",
+    "Feliz 23, mi amor."
   ],
-  "letterSignature": "Con todo mi cariño",
-  "finalTitle": "Por muchos años más",
-  "finalMessage": "Gracias por dejarme ser parte de tu historia.",
+  "letterSignature": "Te amo con mi vida ❤️",
+  "wishPrompt": "Pide un deseo, mi amor",
+  "wishDone": "Que todos tus deseos se cumplan",
+  "finalTitle": "Feliz 23, mi amor",
+  "finalMessage": "Gracias por todo, mi preciosa. Te amo.",
   "finalPhoto": {
-    "src": "/photos/3.jpg",
+    "src": "/photos/daniska-11.jpg",
     "caption": "Nosotros"
   },
   "musicSrc": ""

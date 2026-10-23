@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Fotos originales (solo las elegidas van en public/photos)
+Fotos Chirino*/

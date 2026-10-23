@@ -363,6 +363,35 @@ export function EditorApp() {
           </Field>
         </Section>
 
+        <Section
+          title="El pastel y el deseo"
+          description="Las velas muestran la edad. Al soplarlas aparece el segundo texto."
+        >
+          <Field label="Edad (las velas)">
+            <input
+              className={inputClass}
+              value={data.age}
+              onChange={(e) => update('age', e.target.value)}
+            />
+          </Field>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <Field label="Texto antes de soplar">
+              <input
+                className={inputClass}
+                value={data.wishPrompt}
+                onChange={(e) => update('wishPrompt', e.target.value)}
+              />
+            </Field>
+            <Field label="Texto después de soplar">
+              <input
+                className={inputClass}
+                value={data.wishDone}
+                onChange={(e) => update('wishDone', e.target.value)}
+              />
+            </Field>
+          </div>
+        </Section>
+
         <Section title="Escena final">
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <Field label="Título">

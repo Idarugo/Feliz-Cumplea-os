@@ -7,6 +7,7 @@ export type Photo = {
 
 export type Content = {
   recipientName: string
+  age: string
   coverTitle: string
   coverSubtitle: string
   eventDate: string
@@ -15,6 +16,8 @@ export type Content = {
   letterTitle: string
   letterParagraphs: string[]
   letterSignature: string
+  wishPrompt: string
+  wishDone: string
   finalTitle: string
   finalMessage: string
   finalPhoto: Photo
